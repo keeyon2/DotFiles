@@ -1,11 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/Keeyon/.vim_bak'
-let g:netrw_dirhist_2='/Users/Keeyon/.ssh'
-let g:netrw_dirhist_3='/Users/Keeyon/Coding/Hacks/PennApps/movie-explorer/js'
-let g:netrw_dirhist_4='/Users/Keeyon/.sbt'
-let g:netrw_dirhist_5='/Users/Keeyon/School/Semes2/NLP/jet-141231/props'
-let g:netrw_dirhist_6='/Users/Keeyon'
-let g:netrw_dirhist_7='/Users/Keeyon/Coding/Hacks/VideoHacks/public/js'
-let g:netrw_dirhist_8='/Users/Keeyon/Development/SNFinalProj/Social_networks/templates'
-let g:netrw_dirhist_9='/Users/Keeyon/.rvm'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/Keeyon/DeleteMe'
+let g:netrw_dirhist_2='/Users/Keeyon/Development/AdventureSiteTemp'
+let g:netrw_dirhist_3='/Users/Keeyon/Development/AdventureTime/static'
