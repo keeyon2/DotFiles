@@ -171,6 +171,17 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # Make and Change directory command
 mkdircd(){ mkdir "$1" && cd "$1" ; } 
+findfile(){ find . -iname *"$1"* ; }
+finddir() { find . -iname  *"$1"* -type d ; }
+findtext() { grep -r $1 . ; }
+cplines() {
+    start=$1;
+    finish=$2;
+    file=$3;
+    ((difference = $finish - $start + 1));
+    head -n $finish $file | tail -n $difference | pbcopy;
+}
+here(){ pwd | pbcopy; }
 
 # Add Java .jars to classpath
 # JAR_DIR="/Library/Java/Extensions"
